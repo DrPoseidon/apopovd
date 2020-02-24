@@ -63,7 +63,7 @@ input[type="button"]:hover{
 }
 
 .vk,.inst,.gmail{
-    width: 15vw;
+    width: 15vh;
 }
 
 .h1{
@@ -71,5 +71,5 @@ input[type="button"]:hover{
 }
 
 .gmail{
-    margin: -40px;
+    margin: -9vh;
 }
