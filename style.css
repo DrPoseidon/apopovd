@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Pacifico', sans-serif;
+    font-size: 2vw;
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    background: url(img/bg.jpg);
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.photo_cont{
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+}
+
+.my_photo{
+    width: 20vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.btn_cont{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+input[type="button"]{
+    width: 20vw;
+    border-radius: 10px;
+    outline: none;
+    background-color: white;
+    margin: 0 2px;
+    border: none;
+    font-size: 3vw;
+}
+
+input[type="button"]:hover{
+    filter: invert(100%);
+}
+
+.information_cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.new_div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(192, 190, 190,0.6);
+    margin: .5vh 0;
+}
+
+.new_div1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(192, 190, 190,0.6);
+    margin-bottom: 1vh;
+}
+
+.vk,.inst,.gmail{
+    width: 5vw;
+}
+
+.myname{
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+}
+
+@media (max-width: 450px) { 
+    *{
+        font-size: 3vh;
+    }
+
+    .my_photo{
+        width: 25vh;
+    }
+
+    input[type="button"]{
+        width: 35vw;
+        font-size: 3vh;
+    }
+
+    .vk,.inst,.gmail{
+        width: 6vh;
+    }
+
+    .myname{
+        font-size: 3vh;
+    }
+}
